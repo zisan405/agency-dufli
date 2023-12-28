@@ -93,6 +93,7 @@ header .navbar .nav ul li a .btn1:hover{
     margin-right: 30px;
     display: none;
 }
+/* media screen 1040px */
 @media screen and (max-width: 1040px) {
     .btn1{
         display: none;
@@ -100,3 +101,96 @@ header .navbar .nav ul li a .btn1:hover{
 }
 
 /* header part ends */
+
+/* cover part starts */
+
+.cover{
+    height: 550px;
+    width: 100%;
+    background-color: rgb(239, 255, 255);
+    box-sizing: border-box;
+}
+.cover .text{
+    height: 300px;
+    width: 50%;
+    float: left;
+    clear: both;
+    margin-left: 40px;
+    margin-top: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cover .text h5{
+    font-size: 20px;
+    font-weight: normal;
+    word-spacing: 1px;
+    padding-bottom: 10%;
+    color: orangered;
+}
+.cover .text h1{
+    font-size: 45px;
+    line-height: 60px;
+    color: rgb(19, 4, 95);
+    padding-bottom: 20px;
+}
+.cover .text p{
+    font-size: 14px;
+    line-height: 20px;
+    opacity: 0.7;
+}
+.cover .text .button{
+    height: 50px;
+    margin-top: 20px;
+    width: 100%;
+}
+.cover .text .button .btn1{
+    float: left;
+    clear: both;
+
+}
+.btn1 button{
+    height: 45px;
+    width: 140px;
+    border-radius: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    background-color: orangered;
+    color: white;
+}
+.btn2 button{
+    height: 45px;
+    width: 140px;
+    border-radius: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px solid orangered;
+    background-color: white;
+    color: orangered;
+    margin-left: 30px;
+}
+.btn1 button:hover{
+    color: orangered;
+    background-color: white;
+    border: orangered;
+    transition: all ease-in 0.2s;
+}
+.btn2 button:hover{
+    color: white;
+    background-color: orangered;
+    border: none;
+    transition: all ease-in 0.2s;
+}
+.cover .image{
+    float: right;
+    width: 40%;
+    height: 500px;
+    margin-top: 50px;
+}
+.cover .image img{
+    height: 500px;
+
+}
+
+
+
+/* cover part ends */

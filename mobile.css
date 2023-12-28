@@ -1,0 +1,29 @@
+@media  {
+/* cover part starts */
+    .cover {
+        height: auto;
+        display: flex;
+        height: auto;
+        flex-wrap: wrap;
+        box-sizing: border-box;
+    }
+    .cover .text{
+        order: 2;
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    .cover .text h1{
+        font-size: 40px;
+        line-height: 60px;
+    }
+    .cover .image{
+        height: auto;
+        width: 100%;
+        text-align: center;
+    }
+    .cover .image img{
+        height: 300px;
+    }
+
+}
